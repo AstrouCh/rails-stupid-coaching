@@ -1,0 +1,12 @@
+<div class="container box">
+  <h1 class="title">Stuping Coaching</h1>
+  <div class="element">
+    <p> <%= params[:userinput] %> </p>
+    <p><i>-You</i></p>
+  </div>
+  <div class="element answer">
+    <p> <b><%= @coach_answer %> </b> </p>
+    <p><i>-Your coach</i></p>
+  </div>
+  <%= link_to "Ask another question", ask_path %>
+</div>

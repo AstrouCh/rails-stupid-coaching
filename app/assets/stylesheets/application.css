@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+
+ .box {
+  border: none;
+ }
+
+ .title {
+  padding-left: 20px;
+ }
+
+ body {
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ div {
+  margin: 20px;
+  padding: 5px;
+  padding-left: 20px;
+  border-left: 5px solid rgb(174, 169, 169);
+ }
+
+ a {
+  text-decoration: none;
+  color: steelblue;
+ }
+
+.element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  margin-bottom: 0px;
+  line-height: 2.2;
+}
